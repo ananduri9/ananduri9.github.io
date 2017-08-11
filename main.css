@@ -1,12 +1,14 @@
-body {
-	height: 100%;
-	margin: 0;
-	text-align: center;
-	width: 100%;
-}
 
 h1 {
 	color: blue;
 	font-family: sans-serif;
 	font-size 32px;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image: url('http://s1.picswalls.com/wallpapers/2014/08/08/scottish-landscape-picture_015752462_152.jpg');
+	background-size: cover;
+	height 700px;
 }
