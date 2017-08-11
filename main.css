@@ -1,14 +1,19 @@
-
-h1 {
-	color: blue;
-	font-family: sans-serif;
-	font-size 32px;
-}
-
 .jumbotron {
-	display: flex;
-	align-items: center;
 	background-image: url('http://s1.picswalls.com/wallpapers/2014/08/08/scottish-landscape-picture_015752462_152.jpg');
 	background-size: cover;
-	height 700px;
+	height: 500px;
+}
+
+nav {
+	padding-top: 30px;
+}
+
+#title {
+	font-size: 20px;
+}
+
+#btn1 {
+	float: right;
+	cursor: hand;
+	border-radius: 5px;
 }
