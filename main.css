@@ -1,5 +1,5 @@
 .jumbotron {
-	background-image: url('/Users/Ananduri/gitHub/ananduri_web/portrait.jpg');
+	background-image: url('./images/portrait.jpg');
 	background-size: cover;
 	height: 1000px;
 	padding-top: 50px;
@@ -7,7 +7,7 @@
 }
 
 .padding {
-	padding-right: 30px;
+	padding-right: 20px;
 	text-align: center;
 }
 
@@ -20,7 +20,8 @@
 #nav {
 	color: #f6f6f6;
 	float: right;
-	padding-right: 25px;
+	text-align: center;
+	padding-right: 15px;
 	font-size: 18px;
 }
 
