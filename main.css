@@ -25,7 +25,9 @@
 }
 
 #title {
-	font-size: 20px;
+	font-size: 50px;
+	padding-top: 40px;
+	color: #f6f6f6;
 }
 
 #btn1 {
@@ -36,14 +38,40 @@
 
 #interests {
 	background-color: #add8e6;
+	background-size: cover;
 	width: 100%;
 	height: 100%;
 }
 
 #proj {
+	background-color: #474747;
+	background-size: cover;
+	overflow-x: hidden;
 	padding-top: 100px;
 	padding-bottom: 100px;
+	width: 100%;
 }
+
+.project {
+	border-radius: 25px;
+	width: 500px;
+	height: 500px;
+}
+
+#skills {
+	background-color: #839CA5;
+	background-size: cover;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.img-circle {
+    border-radius: 50%;
+	width: 220px;
+	height: 220px;
+}
+
+
 
 .carousel-inner > .item > img {
 	margin-right: auto;
