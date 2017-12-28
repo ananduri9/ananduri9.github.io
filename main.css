@@ -1,54 +1,119 @@
 .jumbotron {
 	background-image: url('./images/portrait.jpg');
-	background-size: cover;
-	height: 900px;
-	padding-top: 50px;
-}
-
-.padding {
-	padding-right: 20px;
-	text-align: center;
-}
-
-#heading {
-	color: #f6f6f6;
-	padding-top: -50px;
-	padding-left: 40px;
-}
-
-#nav {
-	color: #f6f6f6;
-	float: right;
-	text-align: center;
-	padding-right: 15px;
-	font-size: 18px;
-}
-
-#title {
-	font-size: 50px;
-	padding-top: 40px;
-	color: #f6f6f6;
-}
-
-#btn1 {
-	float: right;
-	cursor: hand;
-	border-radius: 5px;
-}
-
-#interests {
-	background-color: #add8e6;
-	background-size: cover;
 	width: 100%;
-	height: 100%;
+	background-size: cover;
+	height: 100vh;
+	margin: 0 !important;
+	padding: 0;
 }
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: right;
+	color: #f6f6f6;
+	width: 100%;
+}
+
+.flex-container > li {
+	margin: 13px;
+	list-style-type: none;
+	font-size: 15px;
+}
+
+#interests1 {
+	width: 100%;
+	padding-top: 15px;
+	margin: 0;
+	height: 600px;
+	background-color: #378B2E;
+}
+
+#interests2 {
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	height: 500px;
+	background-color: #92D18B;
+}
+
+#interests3 {
+	width: 100%;
+	padding: 0px;
+	margin: 0;
+	height: 500px;
+	background-color: #378B2E;
+}
+
+.interest_text1 {
+	position: absolute;
+	left: 35%;
+	top: 150px;
+	padding: 40px;
+	border-style: groove;
+	border-radius: 15px;
+}
+
+.interest_text2 {
+	position: absolute;
+	left: 50%;
+	top: 165px;
+	padding: 40px;
+	border-style: groove;
+	border-radius: 15px;
+}
+
+#interest_img1 {
+	position: absolute;
+	max-height: 400px;
+	width: auto;
+	left: -60px;
+	top: 35px;
+	border-radius: 15px;
+}
+
+#interest_img2 {
+	position: absolute;
+	max-height: 400px;
+	width: auto;
+	left: 77px;
+	top: 45px;
+	border-radius: 15px; 
+}
+
+#interest_img3 {
+	position: absolute;
+	max-height: 400px;
+	width: auto;
+	left: 30px;
+	top: 65px;
+}
+
+.Head1 {
+	color: #111; 
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1;
+	text-align: center;
+}
+
+.Head2 {
+	color: #111; 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 30px; 
+	font-weight: 300; 
+	line-height: 32px; 
+	text-align: center; 
+}
+
 
 #proj {
-	background-color: #474747;
+	background-color: #236863;
 	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	overflow-x: hidden;
-	padding-top: 100px;
-	padding-bottom: 100px;
 	width: 100%;
 }
 
@@ -59,8 +124,10 @@
 }
 
 #skills {
-	background-color: #839CA5;
+	background-color: #7E9F35;
 	background-size: cover;
+	padding-top: 30px;
+	padding-bottom: 30px;
 	width: 100%;
 	padding-bottom: 50px;
 }
@@ -71,11 +138,13 @@
 	height: 220px;
 }
 
+#footer {
+	padding-top: 30px;
+	background-color: #202020;
+	width: 100%;
+}
 
-
-.carousel-inner > .item > img {
-	margin-right: auto;
-	margin-left: auto;
-	width:540px;
-	height:260px;
+#footer_text {
+	margin-bottom: 25px;
+	color: #e5e5e5;
 }

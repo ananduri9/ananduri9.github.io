@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Ananduri</title>
+	<title>Anand Nanduri</title>
 	<meta charset="utf-8" />
 
 	<link rel="stylesheet" type="text/css" href="main.css"/>
@@ -19,59 +19,76 @@
 
 <body>
 
-	<!-- Header and Nav Bar Container -->
-	<!-- <header class="container">
-		<div class="row">
-			<h2 class="col-md-4">Hi, I'm Anand</h2>
-			<nav class="col-md-8">
-				<p class="col-md-4">This</p>
-				<p class="col-md-4">That</p>
-				<button type="button" id="btn1" onclick="func1()">See More</button>
-				<script>
-					function func1() {
-						document.getElementById("btn1").display = none;
-					}
-				</script>
-			</nav>
-		</div>
-	</header> -->
-
 
 	<!-- Jumbotron container with picture -->
-	<section class="jumbotron">
-		<div id="nav" class="row">
-			<div class="col-lg-2">
-				<p class="padding">About</p>
-			</div>
-			<div class="col-lg-2">
-				<p class="padding">Interests</p>
-			</div>
-			<div class="col-lg-2">
-				<p class="padding">Projects</p>
-			</div>
-			<div class="col-lg-2">
-				<p class="padding">Skills</p>
+	<div class="jumbotron">
+		<div margin="0" class="container">
+				<ul class="flex-container">
+					<li>About</li>
+					<li>Interests</li>
+					<li>Projects</li>
+					<li>Skills</li>
+					<li>Contact Me</li>
+				</ul>
+	    	<h1 margin="0" id="heading">Hi I'm Anand</h1>
+	    	<p margin="0" id="heading">Here's a glimpse into my world</p>
+	    </div>
+	</div>
+
+
+	<!-- Container for interests -->
+	<div class="container" id="interests1">
+
+		<div class="row">
+			<h1 class="Head1">Interests</h1>
+			<h6 class="Head2">Just some things I like to do</h6>
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-8">
+				<p class="interest_text1">Music</h6>
 			</div>
 			<div class="col-lg-4">
-				<p class="padding">Contact Me</p>
+					<img id="interest_img1" src="https://s2.mzstatic.com/us/r30/Purple/21/bf/e2/mzl.ngdwzruo.png"/>
 			</div>
 		</div>
-    	<h1 id="heading">Hi I'm Anand</h1>
-    	<p id="heading">Here's a glimpse into my world</p>
-    	<!-- <img src='/Users/Ananduri/gitHub/ananduri_web/portrait.jpg' height=1000px width=100% /> -->
-	</section>
+	</div>
+	<div class="container" id="interests2">
+		<div class="row">
+			<div class="col-lg-4">
+				<img id="interest_img2" src="http://st.depositphotos.com/1034502/4087/v/950/depositphotos_40870307-Ping-pong.-Tennis-racket-and-ball.jpg"/>
+			</div>
+			<div class="col-lg-8">
+				<p class="interest_text2">Sports</p>
+			</div>
+		</div>
+	</div>
+	<div class="container" id="interests3">
+		<div class="row">
+			<div class="col-lg-8">
+				<p class="interest_text1">Other stuff</p>
+			</div>
+			<div class="col-lg-4">
+				<img id="interest_img3" src="https://www.ssbwiki.com/images/thumb/5/55/SsbmBoxart.jpg/250px-SsbmBoxart.jpg"/>
+			</div>
+		</div>
+	</div>
+
+
+
+
 
 
 	<!-- Carousel Container for my interests -->
-	<div class="container" id="interests">
+	<!--<div class="container" id="interests">
 
-		<h2 id ="header">These are just a few of my interests</h2>
+		<h2 id ="header">These are just a few of my interests</h2> -->
 
 				<!-- make a carousel -->
 
-				<div id="Mycarousel" class="carousel slide" data-ride="carousel">
+				<!-- <div id="Mycarousel" class="carousel slide" data-ride="carousel"> -->
 					<!-- indicators -->
-					<ol class ="carousel-indicators">
+					<!-- <ol class ="carousel-indicators">
 						<li data-target="#Mycarousel" data-slide-to="0" class="active"></li>
 						<li data-target="#Mycarousel" data-slide-to="1"></li>
 						<li data-target="#Mycarousel" data-slide-to="2"></li>
@@ -124,13 +141,16 @@
 
 
 
-	</div>
+	</div> -->
 
 
 	<!-- Container for Projects -->
 	<div class="container" id="proj">
 
-		<h2>But most importantly, I also like to code...</h2>
+		<div class="row">
+			<h1 class="Head1">Projects</h1>
+			<h6 class="Head2">But most importantly I like to code...</h6>
+		</div>
 
 		<div class="row">
 			<div class="col-lg-6 text-center">
@@ -155,7 +175,10 @@
 	<!-- Container for Skills -->
 	<div class="container" id="skills">
 
-		<h2>Some other things I can do...</h2>
+		<div class="row">
+			<h1 class="Head1">Skills</h1>
+			<h6 class="Head2">Some skills I've picked up</h6>
+		</div>
 
 		<div class="row">
 			<div class="col-md-4 text-center">
@@ -187,18 +210,36 @@
 		</div>
 	</div>
 
-	<!-- probably need one more container here -->
 	<!-- Also one more for contact me -->
+	<div class="container" id="contact">
+
+		<div class="row">
+			<h1 class="Head1">Contact</h1>
+			<h6 class="Head2">Here's where to find me</h6>
+		</div>
+
+		<div class="row">
+		    <div class="col-lg-12 text-center">
+		      <p>Email me at: anand.nanduri@yale.edu <span class="glyphicon glyphicon-envelope"></span> </p>
+		      <p>Check out my github: <a href="https://github.com/ananduri9">https://github.com/ananduri9</a></p>
+		      <p>Or my Linkedin: <a href="https://www.linkedin.com/in/anand-nanduri/">https://www.linkedin.com/in/anand-nanduri/</a></p>
+		      <p> 
+		    </div>
+		</div>
+	</div>
+
+
+
 
 	<!-- Container for Footer -->
-	<div class="container">
+	<div class="container" id="footer">
 		<div class="row">
-			<div class="col-md-11 text-right">
-				<p padding-top="20px" id="padding">Reach me at: anand.nanduri@yale.edu</p>
+			<div class="col-md-12 text-center">
+				<p id="footer_text">Anand Nanduri 2017</p>
 			</div>
-			<div class="col-md-1 text-center">
+<!--			<div class="col-md-1 text-center">
 				<img width="50px" height="50px" src="https://openclipart.org/image/2400px/svg_to_png/216531/Mail-Icon-White-on-Grey.png">
-			</div>
+			</div> -->
 		</div>
 	</div>
 </body>
