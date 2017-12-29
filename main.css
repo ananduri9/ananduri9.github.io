@@ -15,9 +15,9 @@ html,body {
 }
 
 .flex-container {
-	display: flex;
+	display:flex;
 	flex-direction: row;
-	justify-content: right;
+	justify-content: flex-end;
 	float: right;
 	color: #f6f6f6;
 	width: 100%;
@@ -40,6 +40,12 @@ html,body {
 
 #heading {
 	margin: 0;
+	color: white;
+}
+
+#heading a {
+	text-decoration: none !important;
+	cursor: default;
 	color: white;
 }
 
@@ -67,20 +73,42 @@ html,body {
 
 .interest_text1 {
 	position: absolute;
-	left: 35%;
-	top: 150px;
+	font-size: 16px;
+	width: 440px;
+	left: 24%;
+	top: 20px;
 	padding: 40px;
-	border-style: groove;
-	border-radius: 15px;
+	font-family: 'Muli', sans-serif;
+	line-height: 34px;
+	text-align: justify;
+}
+
+.interest_text > a {
+	text-decoration: none !important;
 }
 
 .interest_text2 {
 	position: absolute;
-	left: 50%;
-	top: 165px;
+	width: 410px;
+	font-size: 16px;
+	left: 35%;
+	top: 95px;
 	padding: 40px;
-	border-style: groove;
-	border-radius: 15px;
+	font-family: 'Muli', sans-serif;
+	line-height: 34px;
+	text-align: justify;
+}
+
+.interest_text3 {
+	position: absolute;
+	width: 400px;
+	font-size: 16px;
+	left: 24%;
+	top: 120px;
+	padding: 40px;
+	font-family: 'Muli', sans-serif;
+	line-height: 34px;
+	text-align: justify;
 }
 
 #interest_img1 {
@@ -96,7 +124,7 @@ html,body {
 	position: absolute;
 	max-height: 400px;
 	width: auto;
-	left: 77px;
+	left: 170px;
 	top: 45px;
 	border-radius: 15px; 
 }
@@ -105,7 +133,7 @@ html,body {
 	position: absolute;
 	max-height: 400px;
 	width: auto;
-	left: 30px;
+	left: -10px;
 	top: 65px;
 }
 
