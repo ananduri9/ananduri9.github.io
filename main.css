@@ -160,22 +160,37 @@ html,body {
 
 #skills {
 	background-size: cover;
+	height: 820px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	width: 100%;
 	padding-bottom: 50px;
 }
 
-.img-circle {
+.img-circle1 {
+	position: absolute;
+	top: -20px;
+	left: 125px;
     border-radius: 50%;
 	width: 220px;
 	height: 220px;
 }
 
-.img-circle1 {
+.img-circle2 {
+	position: absolute;
+	top: 190px;
+	left: 125px;
     border-radius: 50%;
 	width: 220px;
 	height: 220px;
+}
+
+.img-top {
+
+}
+
+.img-bottom {
+	display: none;
 }
 
 .bottom {

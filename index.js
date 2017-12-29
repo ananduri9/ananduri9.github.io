@@ -22,6 +22,7 @@ $(document).ready(function(){
 //Smooth Scrolling
 $(document).ready(function(){
 	$('.nav a').click(function(){
+
 		var hash = this.hash;
 
 		$('html, body').animate({
@@ -29,5 +30,21 @@ $(document).ready(function(){
 		}, 1100, function(){
 			window.location.hash=hash;
 		});
+	});
+})
+
+
+//Skils Stars
+$(document).ready(function(){
+	$(".col-md-4").mouseenter(function() {
+	    $(this).children(".img-top").fadeOut("fast");
+	    $(this).children(".img-bottom").fadeIn("fast");
+	});
+})
+
+$(document).ready(function(){
+	$(".col-md-4").mouseleave(function() {
+	    $(this).children(".img-bottom").fadeOut("fast");
+	    $(this).children(".img-top").fadeIn("fast");
 	});
 })
